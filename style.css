@@ -1,0 +1,190 @@
+body{
+    background-color: #1F2937;
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: 900;
+    align-self: center;
+    margin-left: 200px;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    margin-right: 200px;
+}
+
+li{
+    margin-left: 20px;
+}
+
+.top-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 85px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    justify-content: space-between;
+}
+
+
+.top-header{
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    padding-right: 10px;
+}
+
+.top-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 40px;
+}
+
+button{
+    background-color: #3882F6;
+    border: none;
+    width: 135px;
+    height: 37px;
+    font-weight: 900;
+    color: white;
+    margin-top: 10px;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.top-right{
+    width: 900px;
+    height: 225px;
+    background-size: cover;
+    background-image: url(/repos/landing-page/hammer.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+
+.middle-content{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.middle-title{
+    font-weight: 900;
+    font-size: 36px;
+    padding: 30px;
+    color:#1F2937;
+    
+}
+.middle-cards{
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 16px;
+    color: #3f3f3f;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.card{
+    padding-inline: 20px;
+}
+
+.card-image{
+    height: 180px;
+    width: 180px;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.quote-block{
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding-left: 280px;
+    padding-right: 280px;
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+.quoted{
+    align-self:flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-top: 10px;
+}
+
+.end-block{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    width: 900px;
+    height: 120px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.call-text{
+    padding-left: 100px;
+}
+
+.call-title{
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.call-body{
+    color: white;
+    font-weight:400;
+    font-size: 14px
+}
+
+.call-button{
+    border-style: solid;
+    border-width: 2px;
+    margin-right: 100px;
+}
+.footer{
+    align-self: center;
+    height: 40px;
+    margin-top: 40px;
+    color: #F9FAF8;
+}
